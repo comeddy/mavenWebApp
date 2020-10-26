@@ -90,7 +90,7 @@ Today's date: <%= (new java.util.Date()).toString()%>
 </html>
 ``` 
 
-This Project Structure is on the right side top as below.  
+Before you can use setting, You are able to change **Project SDK** to corretto-11. This Project Structure is on the right side top as below.  
 ![0-2 choose corretto 11](./images/0-2.png)
 
 This project SDK is default for all project modules. you should be click **edit** and change **corretto-11**.
