@@ -200,7 +200,7 @@ The final pom.xml should be something similar to this
 ## Deploying/Running the Project
 
 Check the console in IntelliJ and wait for the line “Started Jetty Server” to be printed. 
-[8.Started Jetty Server](./images/8.png)
+![8.Started Jetty Server](./images/8.png)
 
 Open your browser and go to localhost:8080. This will show your simple web application in Maven.
 ![10.create new dir](./images/10.png)
