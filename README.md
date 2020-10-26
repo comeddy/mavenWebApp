@@ -168,6 +168,18 @@ The final pom.xml should be something similar to this
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk</artifactId>
+      <version>1.11.885</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+      <scope>provided</scope>
+    </dependency>
   </dependencies>
 
   <build>
