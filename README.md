@@ -86,8 +86,10 @@ Today's date: <%= (new java.util.Date()).toString()%>
 </html>
 ``` 
 
+This Project Structure is on the right side top as below.  
 ![0-2 choose corretto 11](./images/0-2.png)
 
+This project SDK is default for all project modules. you should be click **edit** and change **corretto-11**.
 ![0-1 project setting](./images/0-1.png)
 
 ## Configrure pom.xml
