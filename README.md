@@ -46,7 +46,49 @@ For this example, we will be using Corretto 11 and IntelliJ IDEA 2020.2.
 
 ![1. New project](./images/1.png)
 
+Click Next. Populate the GroupId and ArtifactId. Normally, the GroupId is the company name while the ArtifactId is the project name. Click Next to continue creating the project.
+![2. GroupId and Artifactid](./images/2.png)
+
+In the next window,you will be presented with the Maven installation that you wanted to use. You can use this bundled maven or choose your own maven installation. Click **Next** after selecting your choice.
+![3.Maven home](./images/3.png)
+
+Once finished, you should see your project structure to something similar below. Click the **Project** tab on the left side to view your project hierarchy. In cased that this tab is not visible, you can show this by clicking the double-square icon located at the lower-left corner of IntelliJ.
+![4.default home](./images/4.png)
+
+
 ## Create the Folder Structure
+If IntelliJ didn’t create the java and resources folder for your project, then just add theses folders manually.
+Right-click the **main** folder and select New > Directory.
+
+![5.default dir](./images/5.png)
+
+In the new directory pop up, type java and click OK. This folder will hold our java source codes. Do the same for the resources folder.
+
+Your final folder structure should like similar to this:
+
+![6.create new dir](./images/6.png)
+
+you should be edit a index.jsp as below.
+```jsp
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+         pageEncoding="ISO-8859-1"%>
+<%@ page import="java.util.*" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>current Date</title>
+</head>
+<body>
+<h1>Hello World</h1>
+Today's date: <%= (new java.util.Date()).toString()%>
+</body>
+</html>
+``` 
+
+you should be run **maven run** for compile. 
+![7.create new dir](./images/7.png)
+
 
 ## Configrure pom.xml
 
@@ -157,3 +199,11 @@ The final pom.xml should be something similar to this
 
 ## Deploying/Running the Project
 
+Check the console in IntelliJ and wait for the line “Started Jetty Server” to be printed. 
+[8.Started Jetty Server](./images/8.png)
+
+Open your browser and go to localhost:8080. This will show your simple web application in Maven.
+![10.create new dir](./images/10.png)
+
+If for some reason you are getting an error, try to choose **clean**. On the top **Build** menu, select **Build Artifact** and choose **clean**. 
+![9.create new dir](./images/9.png)
