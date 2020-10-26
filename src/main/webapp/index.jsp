@@ -9,7 +9,7 @@
     <title>current Date</title>
 </head>
 <body>
-<h1>Hello World</h1>
+<h1>Hello AWS World</h1>
 Today's date: <%= (new java.util.Date()).toString()%>
 </body>
 </html>
