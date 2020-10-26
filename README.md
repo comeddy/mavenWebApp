@@ -108,8 +108,24 @@ Open your pom.xml file. Locate the maven.compiler.source and maven.compiler.targ
   </properties>
 ```
 
-Next, under the build section, we will add the jetty plugin. Jetty plugin will be our web app container like tomcat, jboss etc.
+The Amazon Web Services SDK like as below. for Java APIs for building software on AWS cost-effective, scalable, and reliable infrastrurce products.
+The AWS Java SDK allows developers to code against APIs for all of Amazon's infrastructure web services (Amazon S3, Amazon EC2, Amazon SQS, Amazon Relational Database Service, Amazon AutoScaling, etc).
+```xml
+    <dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk</artifactId>
+      <version>1.11.885</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+```
 
+Next, under the build section, we will add the jetty plugin. Jetty plugin will be our web app container like tomcat, jboss etc.
 ```xml
     <plugins>
       <!-- Jetty Plugin. Default port is 8080 -->
