@@ -34,7 +34,8 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Conten
 1. click the **Preferences** on Mac.
 2. On the left side, click **plugin**.
 3. typing the 'AWS Toolkit'
-[0.AWS Toolkit](./images/0.AWS%20Toolkit.png)
+
+![0.AWS Toolkit](./images/0.AWS%20Toolkit.png)
  
 ## Creating a new project in IntelliJ
 
