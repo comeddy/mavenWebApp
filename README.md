@@ -1,5 +1,5 @@
 # The Maven Web Appplication   
-creating Web Application using corretto11, Maven in intellij.
+creating Web Application using corretto-11, Maven in intellij.
  
 ## Amazon Corretto 11 Installation for macOS
 This topic describes how to install and uninstall Amazon Corretto 11 on a host running the Mac OS version 10.13 or later. You must have administrator permissions to install and uninstall Amazon Corretto 11.
@@ -31,7 +31,11 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Conten
 
 
 ## Add AWS Toolkit plugin 
-1. click the **Preferences** on Mac.
+This tutorial will teach you about creating a web application using maven in IntelliJ. 
+This assumes that you have maven installed in your local machine. If not, check this tutorial of [installing maven](https://maven.apache.org/install.html).
+
+
+1. click the **Preferences** in your IntelliJ IDEA.
 2. On the left side, click **plugin**.
 3. typing the 'AWS Toolkit'
 
