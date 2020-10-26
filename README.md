@@ -86,6 +86,9 @@ Today's date: <%= (new java.util.Date()).toString()%>
 </html>
 ``` 
 
+![0-2 choose corretto 11](./images/0-2.png)
+
+![0-1 project setting](./images/0-1.png)
 
 ## Configrure pom.xml
 
