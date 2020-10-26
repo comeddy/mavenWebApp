@@ -86,9 +86,6 @@ Today's date: <%= (new java.util.Date()).toString()%>
 </html>
 ``` 
 
-you should be run **maven run** for compile. 
-![7.create new dir](./images/7.png)
-
 
 ## Configrure pom.xml
 
@@ -205,5 +202,3 @@ Check the console in IntelliJ and wait for the line “Started Jetty Server” t
 Open your browser and go to localhost:8080. This will show your simple web application in Maven.
 ![10.create new dir](./images/10.png)
 
-If for some reason you are getting an error, try to choose **clean**. On the top **Build** menu, select **Build Artifact** and choose **clean**. 
-![9.create new dir](./images/9.png)
