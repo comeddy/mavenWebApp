@@ -37,6 +37,8 @@ For this example, we will be using Corretto 11 and IntelliJ IDEA 2020.2.
 2. On the left side, click **Maven**. 
 3. Select the Project SDK or **New** to add a new SDK. For now, let's tick it and choose **org.apache.maven.archetypes:maven-archetype-webapp**.
 
+![1. New project](./images/1.png)
+
 ## Create the Folder Structure
 
 ## Configrure pom.xml
