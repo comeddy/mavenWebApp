@@ -33,6 +33,9 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Conten
 ## Creating a new project in IntelliJ
 
 For this example, we will be using Corretto 11 and IntelliJ IDEA 2020.2.
+1. click **Create New Project**
+2. On the left side, click **Maven**. 
+3. Select the Project SDK or **New** to add a new SDK. For now, let's tick it and choose **org.apache.maven.archetypes:maven-archetype-webapp**.
 
 ## Create the Folder Structure
 
