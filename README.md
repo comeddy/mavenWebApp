@@ -101,10 +101,9 @@ This project SDK is default for all project modules. you should be click **edit*
 Open your pom.xml file. Locate the maven.compiler.source and maven.compiler.target and change the version to 1.8 since we wanted to use Java 8.
 
 ```xml
- <properties>
+  <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.release>11</maven.compiler.release>
   </properties>
 ```
 
