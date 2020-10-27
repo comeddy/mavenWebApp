@@ -31,7 +31,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Conten
 
 
 ## Installing and Configuring AWS Toolkit plugin for JetBrains 
-This tutorial will teach you about creating a web application using maven in IntelliJ. 
+This readme will notice you about creating a web application using maven in IntelliJ. 
 This assumes that you have maven installed in your local machine. If not, check this tutorial of [installing maven](https://maven.apache.org/install.html).
 
 1. Ensure that a [JetBrains IDE supported by AWS Toolkits](https://docs.aws.amazon.com/toolkit-for-jetbrains/latest/userguide/welcome.html#supported-ides) is installed and running.
@@ -51,6 +51,7 @@ For this example, we will be using Corretto 11 and IntelliJ IDEA 2020.2.
 ![1. New project](./images/1.png)
 
 Click Next. Populate the GroupId and ArtifactId. Normally, the GroupId is the company name while the ArtifactId is the project name. Click Next to continue creating the project.
+1. GroupId is com.awssa or if you have a domain(ex com.example)
 ![2. GroupId and Artifactid](./images/2.png)
 
 In the next window,you will be presented with the Maven installation that you wanted to use. You can use this bundled maven or choose your own maven installation. Click **Next** after selecting your choice.
@@ -61,7 +62,7 @@ Once finished, you should see your project structure to something similar below.
 
 
 ## Create the Folder Structure
-If IntelliJ didn’t create the java and resources folder for your project, then just add theses folders manually.
+If IntelliJ didn’t create the **java** and **resources** folder for your project, then just add theses folders manually.
 Right-click the **main** folder and select New > Directory.
 
 ![5.default dir](./images/5.png)
